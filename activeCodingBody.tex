@@ -1,3 +1,6 @@
+
+
+
 \part[Inleidende Beginsels]
 {Inleidende Beginsels tot Konsep\\ van Programmering}
 
@@ -19,6 +22,7 @@ In die komende jare gaan die vaardigheid om vinnig te kan tik en om te kan progr
 Oopbronsagteware en Linux is ook baie belangrik omdat dit rekenaarwetenskap goedkoop maak.  Dit maak dit toeganklik want dit loop op byna enige hardeware.  Jy kan ook maklik leer deur voorbeeldkode.
 
 Moderne rekenaars is oral en oral beskikbaar.  Soos fone wat meer prosesseringsvermoë het as die maanlandings rekenaar.
+
 
 
 
@@ -53,6 +57,23 @@ Boolse logika vinnig verduidelik
 4.  Die skikking datastruktuur
 
 Klomp boksies in 'n ry gevul met nommers
+
+
+% Python listings instellings
+\lstset{language=Python}
+\lstset{frame=lines}
+\lstset{caption={Insert code directly in your document}}
+\lstset{label={lst:code_direct}}
+\lstset{basicstyle=\footnotesize}
+\begin{lstlisting}
+from brg.datastructures import Mesh
+ 
+mesh = Mesh.from_obj('faces.obj')
+mesh.draw()
+\end{lstlisting}
+
+\lstset{caption={Uit leer:}}
+\lstinputlisting[language=Python]{sample.py}
 
 
 \chapter[Die for stelling]
