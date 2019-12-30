@@ -110,7 +110,6 @@ Net soos optel of `+', kan python verskeie ander operateurs ook verstaan.  Aftre
 
 Partykeer wil programmeerder 'n woord in 'n veranderlike stoor.  Dit word baie soortgelyk aan getalle gedoen.  Dit is belangrik dat al die letters van die woord tussen aanhalingstekens is.  Die aanhalingstekens vertel vir python dat daar 'n string in die veranderlike gestoor gaan word.  Die volgende voorbeeld illustreer hoe dit werk:
 
-\lstset{caption={}}
 \begin{lstlisting}[style=DOS]
 >>>woord_1 = 'abc'
 >>>woord_2 = '123'
@@ -133,7 +132,7 @@ Hier het nou 'n paar interessante dinge gebeur:  Eerstens het julle nou gesien '
 
 \begin{enumerate}
 \item Die verplasing $s$ van 'n voorwerp met 'n beginsnelheid van $u$ en 'n versnelling van $a$ word na 'n sekere tyd $t$ aangegee deur die volgende vergelyking: \\
-$s = ut + \frac{1}{2}at^2$ \\
+$s = ut + \frac{1}{2}at^2$
 Neem aan dat die beginsnelheid 2m/s, die versnelling 0.1m/s$^2$ en die tyd verloop 5 sekondes is.  Bereken nou die verplasing $s$ deur gebruik te maak van veranderlikes.  Tik die proses uit in die python beheervenster.
 \end{enumerate}
 

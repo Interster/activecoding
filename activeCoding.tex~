@@ -57,12 +57,6 @@
 % for answers to problems
 % \usepackage{answers}
 
-% for code listings
-\usepackage{listings}
-
-% for colors, but specifically for command prompts
-\usepackage{xcolor}
-
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %% Change options here if you want:
 %%
@@ -92,7 +86,8 @@
 % \renewcommand{\arraystretch}{0.6}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-
+%% Packages added by user:
+\usepackage{listings}
 
 
 \begin{document}
