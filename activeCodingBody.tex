@@ -152,16 +152,68 @@ Neem aan dat die beginsnelheid 2m/s, die versnelling 0.1m/s$^2$ en die tyd verlo
 \part[Basiese Beginsels]
 {Basiese Beginsels van\\ Programmering}
 
+\chapter[]
+{}
+
 \chapter[Die if stelling]
 {Die if stelling}
 
-Verduidelik die stelling
+Hierdie hoofstuk dek die eerste fundamentele gedeelte van programmering, naamlik die if stelling.  Eerstens gaan ons logika deurgaan, want dit is 'n belangrike konsep wat nodig is om 'n if stelling te kan gebruik en daarna gaan ons die stelling self hanteer.
+
+\section{Logika}
+
+Logika vorm die basis van byna alle rekenaar berekeninge.  Alle data in 'n rekenaar word as 'n kombinasie van nulle en ene voorgestel.  Dit het te doen met hoe 'n rekenaar berekeninge doen.  Op 'n basiese vlak verteenwoordig 'n ho\"er spanning 'n waarde van 1 en 'n lae spanning 'n waarde van nul.  Die rekenaar stoor in geheue die ene en nulle in die vorm van bin\^ere getalle.  Die presiese detail van hoe hierdie dinge in 'n rekenaar gebeur val buite die bestek van hierdie handleiding.  Hierdie handleiding gaan fokus op hoe logika in python implementeer word.
+
+Python gebruik nes vele ander tale 'n groep logiese operateurs om logiese stellings te hanteer.  In terme van logiese stellings kan die ene en nulle 'n ander betekenis aanneem, naamlik dat 'n 1 WAAR beteken en dat 'n 0 VALS beteken.  
+
+'n Eenvoudige voorbeeld hiervan is wanneer iemand jou 'n vraag vra soos:  `Is die getal 42 groter as die getal 41?'.  Die antwoord is natuurlik ja.  In rekenaarterme is hierdie antwoord WAAR oftewel 1.  Hierdie vraag kan in python uitgedruk word as volg:
+
+\lstset{caption={Kwadraat of magsverheffing met 2}}
+\begin{lstlisting}[style=DOS]
+>>>42>41
+>>>True
+\end{lstlisting}
+
+In die bostaande voorbeeld sien ons die $>$ logiese operateur wat in woorde beteken `groter as'.  Net so is daar ook $<$ wat kleiner as beteken.  Verder is daar ook die $==$ operateur wat die vraag vra of twee waardes gelyk is aan mekaar, al dan nie.  Daar is ook die $<=$ en $>=$ operateurs wat vra of die waardes aan weerskante van die operateur kleiner as of gelyk aan en groter as of gelyk aan onderskeidelik is.
+
+Probeer die volgende logiese stellings in die python beheervenster en kyk na die antwoorde.
+
+\lstset{language=Python}
+\lstset{frame=lines}
+\lstset{caption={Voorbeeld van die if stelling}}
+\lstset{label={lst:code_direct}}
+\lstset{basicstyle=\footnotesize}
+\begin{lstlisting}
+2 < 5
+3 > 7
+x = 11
+x > 10
+2 * x < x
+type(True)
+\end{lstlisting}
+
+
+
+\section{Die gebruik van die if stelling}
+Die if stelling is 'n logiese struktuur in programmering waar die program 'n vraag gevra word en dit dan reageer op hierdie vraag afhangend van die antwoord op die vraag.  Die if stelling gebruik die boolese logika soos verduidelik in die vorige gedeelte.
+
+Verduidelik inkeping.
+
+
+\lstset{language=Python}
+\lstset{frame=lines}
+\lstset{caption={Voorbeeld van eenvoudige if stelling}}
+\lstset{label={lst:code_direct}}
+\lstset{basicstyle=\footnotesize}
+\begin{lstlisting}
+    weight = float(input("How many pounds does your suitcase weigh? "))
+    if weight > 50:
+        print("There is a $25 charge for luggage that heavy.")
+    print("Thank you for your business.")
+\end{lstlisting}
 
 Boolse logika vinnig verduidelik
 
-4.  Die skikking datastruktuur
-
-Klomp boksies in 'n ry gevul met nommers
 
 
 % Python listings instellings
@@ -191,6 +243,12 @@ Gebruik die for stelling om 'n skikking te kwadreer
 {Die while stelling}
 
 Verduidelik dit met die borrelsorteer algoritme
+
+
+\chapter[Skikkings en lyste]
+{Die skikking datastruktuur}
+
+Klomp boksies in 'n ry gevul met nommers
 
 
 \chapter[Funksies]
