@@ -7,4 +7,6 @@
 *.ilg
 *.ind
 *.toc
+*.h5
+*.png
 /Template
