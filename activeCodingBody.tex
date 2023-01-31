@@ -19,8 +19,10 @@ In die komende jare gaan die vaardigheid om vinnig te kan tik en om te kan progr
 
 Oopbronsagteware en Linux is ook baie belangrik omdat dit rekenaarwetenskap goedkoop en toeganklik maak.  Dit maak dit toegangklik want hierdie sagteware loop op byna enige hardeware en dit is gratis.  Jy kan ook maklik leer deur voorbeeldkode wat vryelik beskikbaar is op die internet.
 
-Moderne rekenaars is oral rondom ons en is oral beskikbaar.  Die selfone wat ons almal besit het meer prosesseringsvermo\"e het as die maanlandings rekenaar.  Rekenaars en programmering het al hoe meer betrokkenheid in ons lewens en daar is behalwe selfone meer rekenaars rondom as wat ons dink.  Dink maar aan voertuie en selfs die element\^e sagteware op jou TV se afstandbeheer.  Hierdie handleiding is 'n deur tot die w\^ereld van programmering en hopelik maak dit veel meer deure vir jou oop in die toekoms deur jou die basiese vaardighede van programmering te leer.
+Moderne rekenaars is oral rondom ons en is oral beskikbaar.  Die selfone wat ons almal besit het meer prosesseringsvermo\"e het as die maanlandings rekenaar.  Rekenaars en programmering het al hoe meer betrokkenheid in ons lewens en daar is behalwe selfone meer rekenaars rondom as wat ons dink.  Dink maar aan voertuie en selfs die element\^ere sagteware op jou TV se afstandbeheer.  Hierdie handleiding is 'n deur tot die w\^ereld van programmering en hopelik maak dit veel meer deure vir jou oop in die toekoms deur jou die basiese vaardighede van programmering te leer.
 
+
+Hierdie boek is grotendeels be\"invloed deur die handboek wat ek in ho\:erskool gebruik het vir rekenaarwetenskap.  Hierdie boek is \emph{Beleef Turbo Pascal} of \cite{beleef} deur SSJ Breytenbach.  Daar is dus heelwat raakpunte tussen die struktuur van hierdie boek en hierdie bron.  Ek het dit goedgedink om die konsepte van \emph{Beleef Turbo Pascal} op te dateer en dit net met Python te verduidelik.  Daar is natuurlik verskille soos dat Python 'n interpreteerder is en Pascal 'n vertaler is, maar dit doen geen aftrek aan die basiese konsepte nie.
 
 
 
@@ -30,8 +32,10 @@ Moderne rekenaars is oral rondom ons en is oral beskikbaar.  Die selfone wat ons
 
 Gee voorbeeld deur 'n while lus te doen met mense. 'n teller tel op tot 3 waarna die persoon na regs gestuur word indien teller bo 3 is.
 
-\chapter[Veranderlikes]
-{Veranderlikes}
+
+
+\chapter[Die begin]
+{Begin om te programmeer}
 
 \section{Verduideliking van konsepte}
 
@@ -147,28 +151,35 @@ Neem aan dat die beginsnelheid 2m/s, die versnelling 0.1m/s$^2$ en die tyd verlo
 11.25
 \end{lstlisting}
 
+\section{Die aanskakeling}
+
+\section{Die intik van 'n eerste program}
 
 
-\part[Rekenaarwetenskap Beginsels]
-{Basiese Begrippe in\\ Rekenaarwetenskap}
+Tik nou die volgende program net so in 'n teks redigeerder in:
 
-\chapter[Getallestelsels]
-{Getallestelsels}
+Of gebruik die python command line repl ('read eval print loop')
 
-Bin\^ere, desimale en heksadesimale getallestelsels
-
+\# Hallo w\^ereld program
+print('Hallo wereld')
 
 
+\section{Veranderlikes}
 
-\chapter[Boolese Logika]
-{Boolese Logika}
+Soms moet dieselfde program verskillende mense se name na die skerm kan skryf.
 
-AND, OR, XOR beginsels met vloeidiagramme
+Tik die volgende program in:
 
-\chapter[Data]
-{Data}
+print('Wat is jou naam')
+input(naam)
+print('Aangename kennis ' + naam)
 
-Data word gestoor in die bin\^ere getallestelsel
+\section{Die toewysingstelling}
+
+Die toewysingstelling of "=" word gebruik om 'n waarde aan 'n veranderlike toe te ken.
+
+
+
 \part[Basiese Beginsels]
 {Basiese Beginsels van\\ Programmering}
 
@@ -341,10 +352,42 @@ Definieer sirkel as objek.  Bereken area en die omtrek as die metodes van die ob
 
 Verduidelik hoe generators gebruik kan word vir oneindige lyste en geheue doeltreffende operasies.
 
+\chapter{Dinamiese veranderlikes (pointers)}
+{Dinamiese veranderlikes of pointers}
+
+
+
 \chapter[Netwerke]
 {Netwerke}
 
 Die internet en hoe netwerke werk in neutedop
+
+
+
+
+\part[Rekenaarwetenskap Beginsels]
+{Basiese Begrippe in\\ Rekenaarwetenskap}
+
+\chapter[Getallestelsels]
+{Getallestelsels}
+
+Bin\^ere, desimale en heksadesimale getallestelsels
+
+
+
+
+\chapter[Boolese Logika]
+{Boolese Logika}
+
+AND, OR, XOR beginsels met vloeidiagramme
+
+\chapter[Data]
+{Data}
+
+Data word gestoor in die bin\^ere getallestelsel
+
+
+
 
 \part[Konfigurasie Aspekte]
 {Konfigurasie Aspekte van\\ Programmering}
